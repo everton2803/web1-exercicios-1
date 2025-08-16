@@ -84,3 +84,8 @@ h3{
 .pcard{
     padding: 0rem 0rem 2rem ;
 }
+
+span {
+    background: yellow;
+    padding: 0.2em 0.4em;
+}
