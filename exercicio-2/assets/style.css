@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    justify-content: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+nav a {
+    color: white;
+    margin-left: 1rem;
+}
+
+.manchete {
+    padding: 1rem 1rem;
+    background: white;
+}
+
+.manchete span {
+    background: yellow;
+    padding: 0.2em 0.4em;
+}
+
+.card {
+    background: white;
+    margin: 4px;
+    border: 2px solid gray;
+    text-align: center;
+    justify-content: left;
+    padding: 2rem 4rem;
+}
+
+table{
+    width: calc(90%);
+    margin: 3rem;
+}
