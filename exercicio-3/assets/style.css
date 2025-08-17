@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+}
+
+header {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+nav a {
+    color: white;
+    margin-left: 1em;
+    text-decoration: none;
+}
+
+.principal {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    background-color: rgb(100, 100, 100);
+    padding: 10rem;
+    color: white;
+}
+
+.principal span{
+    background-color: yellow;
+}
+
+.beneficios {
+    display: flex;
+    max-width: calc(90%);
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+    margin: 2rem auto;
+    box-sizing: border-box;
+
+
+.card {
+    background: white;
+    font-weight: 100;
+    width: calc(33.33% - 1rem);
+    border: 2px solid gray;
+    padding: 2rem;
+    text-align: center;
+    justify-content: space-between;
+    transition: transform 0.2s;
+    overflow:auto;
+    background-color: gainsboro;
+}
