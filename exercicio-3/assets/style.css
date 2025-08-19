@@ -1,7 +1,8 @@
 * {
-    margin: 0;
+    margin: auto;
     padding: 0;
     box-sizing: border-box;
+    max-width: 1200px;
 }
 
 h1{
@@ -24,6 +25,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 2em;
+    margin-bottom: 4rem;
 }
 
 nav a {
@@ -32,13 +34,26 @@ nav a {
     text-decoration: none;
 }
 
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.logo{
+    gap: 1rem;
+    display: flex;
+}
+
 .principal {
     font-weight: bold;
     display: block;
     text-align: center;
-    background-color: rgb(100, 100, 100);
+    background-image: url('/exercicio-5/assets/fabrica-1.webp');
+    background-size: cover;
+    background-position: bottom;
     padding: 10rem;
-    color: white;
+    color: black;
+    max-width: 95%;
 }
 
 .principal span{
@@ -53,7 +68,7 @@ nav a {
     padding: 2rem;
     margin: 2rem auto;
     box-sizing: border-box;
-
+}
 
 .card {
     background: white;
@@ -66,4 +81,10 @@ nav a {
     transition: transform 0.2s;
     overflow:auto;
     background-color: gainsboro;
+}
+
+@media (max-width: 768px) {
+    .beneficios{
+        flex-direction: column;
+    }
 }
